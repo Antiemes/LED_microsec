@@ -1,2 +1,4 @@
+#!/bin/bash
+
 gpasm -iw1 ledusec.asm
 sudo pk2cmd -A 5 -P PIC16F876A -E -F ledusec.hex -M -T -R
